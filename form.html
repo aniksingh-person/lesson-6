@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            docters appoitment form
+        </title>
+    </head>
+    <body>
+        <h1>
+            docter appoitment
+        </h1>
+        <p>
+            please fill in the details below with correct information
+        </p>
+        <form>
+            <fieldset>
+                <legend>
+                    personal details
+                </legend>
+                <label >name</label>
+                <input type="text" placeholder="Enter Your Full name"><br>
+                <label>patient ID</label>
+                <input type="password" placeholder="Enter your patient ID"><br>
+                <label>Date of Birth</label>
+                <input type="date" >
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    docter visit
+                </legend>
+                <label>Why are you visiting?</label><br>
+                <input type="radio">fever
+            <br> <input type="radio">check up
+            <br>  <input type="radio">tooth pain
+            <br>  <input type="radio">cold
+<br>
+<br>
+                <label>Choose your docter </label>
+                <select id="docter">
+                    <option value="">select a docter</option>
+                        <option value="Dr Anik"> Dr Anik </option>
+                            <option value="Dr eeshika"> Dr eeshika</option>
+                                <option value="Dr Anshu"> Dr Anshu</option>
+                                    <option value="Dr devendra">Dr devendra</option>
+                </select>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>
+                   prefering visiting days
+                </legend>
+                <label>when will be you visiting?</label><br>
+                <input type="checkbox">Monday
+                <br> <input type="checkbox"> Tuesday
+                <br> <input type="checkbox"> Wedesnday
+                <br> <input type="checkbox">Thursday
+                <br>
+                </fieldset>
+                <input type="submit" value="book your appoitment">
+        </form>
+    </body>
+</html>
